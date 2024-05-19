@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    border: 2px dotted white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.box1, .box2, .box3 {
+    height: 400px;
+    width: 400px;   
+    color: rgb(9, 9, 9);
+    font-size: xx-large;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px black;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    transform: scale(102%);
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(59, 30, 186);
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box2 {
+    background-color: rgb(29, 175, 183);
+}
+
+.box3 {
+    background-color: rgb(120, 32, 119);
+}
+
+.nav ul {
+    display: flex;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.309);
+    color: #FFFFFF;
+    font-size: larger;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.nav ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+main .container p {
+    text-align: center;
+    line-height: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(5, 79, 24, 0.309);
+    padding: 10px;
+    font-size: large;
+}
